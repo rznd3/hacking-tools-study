@@ -13,7 +13,7 @@ for line in file:
 
     try:
         r = requests.get(sub_to_check)
-        print('sucesso')
+        print('success')
         print(sub_to_check)
         print('---------------------')
 

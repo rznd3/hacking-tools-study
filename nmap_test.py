@@ -1,6 +1,6 @@
 import sys
 import os
 
-alvo = str(sys.argv[1])
+target = str(sys.argv[1])
 
-print(os.system('nmap ' + alvo))
+print(os.system('nmap ' + target))
